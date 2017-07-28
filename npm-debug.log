@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bamzoncustomer.js' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bamzoncustomer.js
+8 silly fetchOtherPackageData bamzoncustomer.js
+9 silly cache add args [ 'bamzoncustomer.js', null ]
+10 verbose cache add spec bamzoncustomer.js
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'bamzoncustomer.js',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: 'bamzoncustomer.js',
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'bamzoncustomer.js',
+11 silly cache add   spec: 'C:\\Users\\manas\\desktop\\bramzon\\bamzoncustomer.js',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) da39a3ee5e6b4b0d3255bfef95601890afd80709
+13 verbose addTmpTarball C:\Users\manas\desktop\bramzon\bamzoncustomer.js not in flight; adding
+14 verbose correctMkdir C:\Users\manas\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from C:\Users\manas\desktop\bramzon\bamzoncustomer.js
+16 verbose tar unpack C:\Users\manas\desktop\bramzon\bamzoncustomer.js
+17 verbose tar unpacking to C:\Users\manas\AppData\Local\Temp\npm-6328-5183da48\unpack-a63f4b49
+18 silly gentlyRm C:\Users\manas\AppData\Local\Temp\npm-6328-5183da48\unpack-a63f4b49 is being purged
+19 verbose gentlyRm don't care about contents; nuking C:\Users\manas\AppData\Local\Temp\npm-6328-5183da48\unpack-a63f4b49
+20 silly gunzTarPerm modes [ '777', '666' ]
+21 error tar.unpack error reading C:\Users\manas\desktop\bramzon\bamzoncustomer.js
+22 error addLocal Could not install C:\Users\manas\desktop\bramzon\bamzoncustomer.js
+23 silly fetchPackageMetaData Error: 0-byte tarball
+23 silly fetchPackageMetaData Please run `npm cache clean`
+23 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\tar.js:287:14
+23 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:267:18
+23 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+23 silly fetchPackageMetaData  error for bamzoncustomer.js Error: 0-byte tarball
+23 silly fetchPackageMetaData Please run `npm cache clean`
+23 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\tar.js:287:14
+23 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:267:18
+23 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+24 silly rollbackFailedOptional Starting
+25 silly rollbackFailedOptional Finishing
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: 0-byte tarball
+28 verbose stack Please run `npm cache clean`
+28 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\tar.js:287:14
+28 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:267:18
+28 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+29 verbose cwd C:\Users\manas\desktop\bramzon
+30 error Windows_NT 10.0.14393
+31 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bamzoncustomer.js"
+32 error node v6.11.0
+33 error npm  v3.10.10
+34 error 0-byte tarball
+34 error Please run `npm cache clean`
+35 error If you need help, you may report this error at:
+35 error     <https://github.com/npm/npm/issues>
+36 verbose exit [ 1, true ]

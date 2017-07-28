@@ -1,0 +1,22 @@
+{
+  "name": "bramzon",
+  "version": "1.0.0",
+  "description": "customers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-watkins123/brramzon.git"
+  },
+  "keywords": [
+    "bramzzon"
+  ],
+  "author": "Manassah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-watkins123/brramzon/issues"
+  },
+  "homepage": "https://github.com/m-watkins123/brramzon#readme"
+}
